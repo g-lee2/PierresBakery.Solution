@@ -2,7 +2,7 @@ namespace BakeryPastry.Models
 {
   public class Pastry
   {
-    public int CostPerPastry { get; }
-
+    public int AmountPerPastry { get; }
+    
   }
 }
