@@ -4,5 +4,10 @@ namespace BakeryBread.Models
   {
 
     public int AmountOfBread { get; }
+
+    public Bread(int amountOfBread)
+    {
+      AmountOfBread = amountOfBread;
+    }
   }
 }
