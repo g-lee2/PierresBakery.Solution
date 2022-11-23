@@ -22,5 +22,11 @@ namespace Bakery.Tests
       int result = newBread.BreadAmount;
       Assert.AreEqual(breadAmount, result);
     }
+
+    [TestMethod]
+    public void SetBreadAmount_SetBreadAmount_Int()
+    {
+
+    }
   }
 }
