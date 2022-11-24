@@ -41,5 +41,14 @@ namespace Bakery.Tests
       double result = newBread.TotalBreadCost();
       Assert.AreEqual(result, 15);
     }
+
+    [TestMethod]
+    public void TotalBreadCost_ReturnsTotalBreadCostThree_Double()
+    {
+      double breadAmount = 1;
+      Bread newBread = new Bread(breadAmount);
+      double result = newBread.TotalBreadCost();
+      Assert.AreEqual(result, 5);
+    }
   }
 }
