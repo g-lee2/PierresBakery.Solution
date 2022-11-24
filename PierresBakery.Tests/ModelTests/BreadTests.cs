@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using Bakery.Models;
 
 namespace Bakery.Tests
@@ -15,18 +16,21 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void GetBreadAmount_ReturnsBreadAmount_Int()
+    public void GetBreadAmount_ReturnsBreadAmount_Double()
     {
-      int breadAmount = 3;
+      double breadAmount = 3;
       Bread newBread = new Bread(breadAmount);
-      int result = newBread.BreadAmount;
+      double result = newBread.BreadAmount;
       Assert.AreEqual(breadAmount, result);
     }
 
     [TestMethod]
-    public void SetBreadAmount_SetBreadAmount_Int()
+    public void TotalBreadCost_ReturnsTotalBreadCost_Double()
     {
-
+      double breadAmount = 3;
+      Bread newBread = new Bread(breadAmount);
+      double result = newBread.TotalBreadCost();
+      Assert.AreEqual(result, 10);
     }
   }
 }
