@@ -22,5 +22,14 @@ namespace Bakery.Tests
       int result = newPastry.PastryAmount;
       Assert.AreEqual(pastryAmount, result);
     }
+
+    [TestMethod]
+    public void TotalPastryCost_ReturnsTotalPastryCost_Int()
+    {
+      int pastryAmount = 2;
+      Pastry newPastry = new Pastry(pastryAmount);
+      int result = newPastry.TotalPastryCost();
+      Assert.AreEqual(result, 10);
+    }
   }
 }
