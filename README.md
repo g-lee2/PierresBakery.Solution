@@ -13,8 +13,6 @@ This application will show how much a user will need to pay for the amount of br
 This is an application that asks the user how much bread loaves and pastries they would like from Pierre's Bakery. Depending on how many the user wants of each, it will determine the total cost they would need to pay in order to buy the bread and pastry from Pierre's Bakery. Since there is a promotion going on at Pierre's Bakery, users will be able to buy for more less. Every third bread they want is free and for pastries, if the user buys 3, 4, 5, or 6 pastries, they will pay $5, $7, $9, $10 respectively. If the user wants more pastries, discounts will apply respectively. 
 
 ## Setup/Installation Requirements
-
-## Running the Samples From the Command Line
 * Clone this repository to your desktop:
 ```
     $ git clone https://github.com/g-lee2/pierres-bakery.git
