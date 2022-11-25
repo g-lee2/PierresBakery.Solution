@@ -1,10 +1,9 @@
 # Pierre's Bakery
 
+#### By Grace Lee
+
 #### Brief Description of Application
 This application will show how much a user will need to pay for the amount of bread loaves and pastries they want at Pierre's Bakery.
-
-#### Contributors
-  * Grace Lee
 
 ## Technologies Used
 
