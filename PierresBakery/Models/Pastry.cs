@@ -11,17 +11,17 @@ namespace Bakery.Models
     }
     public int TotalPastryCost()
     {
-      if (PastryAmount % 3 == 0)
+      if (PastryAmount % 5 == 0)
       {
-        return (PastryAmount / 3) * 5;
+        return (PastryAmount / 5) * 9;
       }
       else if (PastryAmount % 4 == 0)
       {
         return (PastryAmount / 4) * 7;
       }
-      else if (PastryAmount % 5 == 0)
+      else if (PastryAmount % 3 == 0)
       {
-        return (PastryAmount / 5) * 9;
+        return (PastryAmount / 3) * 5;
       }
       else 
       {
